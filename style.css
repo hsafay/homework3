@@ -1,0 +1,39 @@
+body{background-image: url(http://lyngsoe-rainwear.dk/wp-content/uploads/2017/02/plain-light-color-for-guest-background-e28093-aleksandar-savkovi-light-color-background-images-for-website-1024x640.jpg);
+
+}
+#banner{
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    margin: 100px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    clear: both;
+    float: right;
+
+    
+}
+#webpages-navigation ul{
+    list-style: none;
+
+}
+
+.topnav ul li{
+    width: 200px;
+    border: 1px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    float: right;
+    font-size: 18px;  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+ 
+
+
+}
+#webpages-navigation ul li:hover{
+    background-color: gray;
+}
+.topnav ul ul{display: none;}
+.topnav ul li:hover > ul{display: block}
+.topnav{display: flex;
+justify-content: flex-end;
+flex-direction: row-reverse}
